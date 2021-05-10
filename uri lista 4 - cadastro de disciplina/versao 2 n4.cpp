@@ -30,11 +30,11 @@ class Historico {
     private:
         Disciplina v[100];
         int qtd;
+        int obterIndice(int &busca);
     public:
         double CR();
         void inicializarHistorico();
         void inserirDisciplina(Disciplina d);
-        int obterIndice(int &busca);
         int removerDisciplina(int &busca);
         void alterarDisciplina(int &busca, Disciplina d);
         void listarPeloAnoSemestre(int &buscaano, int &buscasemestre);
