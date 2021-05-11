@@ -1,4 +1,4 @@
-# Cadastro de Disciplina 4
+# Cadastro de Disciplina
 
 Fazer um programa para gerenciar  o seu  historico de disciplinas. O programa deve mostrar um menu de opções com 8 opcoes: incluir uma disciplina, remover uma disciplina dado o codigo,alterar os dados de uma disciplina dado o codigo, listar as disciplinas cursadas, listar as disciplinas de um semestre e ano, listar as disciplinas dado parte do nome ou nome professor, mostrar historico e sair.  Ao Iniciar o programa o historico deve iniciar vazio. Os dados da disciplina são: codigo: inteiro, Nome:string, Professor: string, Creditos: inteiro, Ano: Inteiro, Semestre: inteiro, Nota1: double e Nota 2: double.a média é calculada usando a nota1 e a nota2, nota 1 com peso 1 e nota 2 com peso 2
 calculo da media = (nota1 + 2.0*nota2)/3.0.
