@@ -79,7 +79,10 @@ int Historico::obterIndice(int busca){
 int Historico::removerDisciplina(int busca){
     int pos = obterIndice(busca);
     if (pos > -1){
-        v[pos] = v[qtd - 1];
+       for (int i = pos+1; i<qtd; i++){
+            v[pos] = v[i];
+            pos++;
+        }
         qtd--;
         return 1;
     }else
