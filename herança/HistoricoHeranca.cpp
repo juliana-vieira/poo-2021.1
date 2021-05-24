@@ -164,9 +164,9 @@ class Historico {
         Historico();
         virtual ~Historico();
         bool existe(int busca);
-        void inserir(Disciplina *d);
+        void inserir(Disciplina* d);
         void remover(int busca);
-        void alterar(Disciplina *d, int busca);
+        void alterar(Disciplina* d, int busca);
         void listar();
         void listartp2();
         void listartp3nota();
