@@ -314,7 +314,8 @@ int main(){
             h.listartp2();                                          
             system("pause"); break;
         case 6:
-            h.listartp3nota(); break;
+            h.listartp3nota(); 
+            system("pause"); break;
         case 7:
             fim = true; break;
         default:
