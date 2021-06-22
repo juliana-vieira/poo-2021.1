@@ -1,0 +1,13 @@
+debug/Filme.o
+debug/Jogo.o
+debug/Locadora.o
+debug/dlgfilme.o
+debug/dlgjogo.o
+debug/dlgselecionaritem.o
+debug/item.o
+debug/main.o
+debug/mainwindow.o
+debug/moc_dlgfilme.o
+debug/moc_dlgjogo.o
+debug/moc_dlgselecionaritem.o
+debug/moc_mainwindow.o
